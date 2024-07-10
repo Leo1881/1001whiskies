@@ -1,0 +1,196 @@
+:root {
+  --popup-bg-color: rgba(0, 0, 0, 0.8);
+  --popup-content-bg: white;
+  --popup-padding: 20px;
+  --popup-border-radius: 5px;
+  --popup-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  --popup-max-width: 65%;
+  --popup-max-height: 80%; 
+  --popup-image-padding: 10px;
+  --popup-details-padding: 10px 20px;
+  --heading-font: "Playfair Display", serif;
+  --heading-color: #B87333;
+  --heading-size: 32px;
+  --heading-weight: 700;
+  --rating-font-size: 18px;
+  --rating-color: #B87333;
+  --paragraph-font: "Lato", sans-serif;
+  --paragraph-font-size: 16px;
+  --paragraph-line-height: 1.6;
+  --paragraph-color: #1F3347;
+  --paragraph-margin-bottom: 20px;
+  --close-font-size: 40px;
+  --close-color: #1F3347;
+  --close-padding-top: 10px;
+  --close-padding-right: 30px;
+  --h2-margin-top: 20px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--popup-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+}
+
+.popup-content {
+  position: relative;
+  background-color: var(--popup-content-bg);
+  padding: var(--popup-padding);
+  border-radius: var(--popup-border-radius);
+  box-shadow: var(--popup-shadow);
+  text-align: center;
+  max-width: var(--popup-max-width); 
+  max-height: var(--popup-max-height); 
+  display: flex; 
+  flex-direction: column;
+}
+
+.popup-content-inner {
+  display: flex;
+  flex: 1; 
+  overflow-y: auto; 
+}
+
+.popup-image {
+  flex: 1; 
+  padding: var(--popup-image-padding); 
+  text-align: center;
+}
+
+.popup-image img {
+  max-width: 100%; 
+  height: auto;
+  border-radius: var(--popup-border-radius);
+}
+
+.popup-details {
+  flex: 2; 
+  padding: var(--popup-details-padding); 
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.popup-details h2 {
+  font-family: var(--heading-font);
+  color: var(--heading-color);
+  font-size: var(--heading-size);
+  font-weight: var(--heading-weight);
+  margin-bottom: var(--paragraph-margin-bottom);
+}
+
+.rating {
+  font-size: var(--rating-font-size);
+  margin-bottom: var(--paragraph-margin-bottom);
+}
+
+.rating span {
+  color: var(--rating-color);
+}
+
+.paragraph1, .paragraph2, .paragraph3 {
+  font-family: var(--paragraph-font);
+  font-size: var(--paragraph-font-size);
+  line-height: var(--paragraph-line-height);
+  margin-bottom: var(--paragraph-margin-bottom);
+  color: var(--paragraph-color);
+}
+
+.paragraph3 {
+  font-weight: 700;
+}
+
+.close {
+  position: absolute;
+  top: var(--close-padding-top);
+  right: var(--close-padding-right);
+  font-size: var(--close-font-size);
+  cursor: pointer;
+  color: var(--close-color);
+}
+
+h2 {
+  margin-top: var(--h2-margin-top);
+}
+
+/* Media queries */
+@media (max-width: 1200px) {
+  :root {
+    --popup-max-width: 80%;
+    --popup-max-height: 85%;
+    --popup-padding: 15px;
+    --popup-details-padding: 10px 15px;
+    --heading-size: 28px;
+    --rating-font-size: 16px;
+    --paragraph-font-size: 15px;
+    --close-font-size: 35px;
+  }
+
+  .popup-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --popup-max-width: 90%;
+    --popup-max-height: 90%;
+    --popup-padding: 10px;
+    --popup-details-padding: 5px 10px;
+    --heading-size: 24px;
+    --rating-font-size: 14px;
+    --paragraph-font-size: 14px;
+    --close-font-size: 30px;
+  }
+
+  .popup-content-inner {
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  .popup-image,
+  .popup-details {
+    flex: unset; 
+    width: 90%;
+  }
+
+  .popup-image img {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --popup-max-width: 85%;
+    --popup-max-height: 95%;
+    --popup-padding: 5px;
+    --popup-details-padding: 10px;
+    --heading-size: 20px;
+    --rating-font-size: 12px;
+    --paragraph-font-size: 13px;
+    --close-font-size: 25px;
+  }
+
+  .popup-content-inner {
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  .popup-image,
+  .popup-details {
+    flex: unset; 
+    width: 90%; 
+  }
+
+  .popup-image img {
+    margin: 0 auto; 
+  }
+}

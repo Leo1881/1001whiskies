@@ -1,0 +1,12 @@
+.event-divider {
+  border: 0;
+  border-top: 1.5px solid #B87333; 
+  margin: 0 -0.2%; 
+  background: #FAF7F1; 
+}
+
+@media (max-width: 480px) {
+  .event-divider {
+    width: 94%;
+  }
+}

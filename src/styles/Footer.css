@@ -1,0 +1,47 @@
+:root {
+  --footer-bg-color: #1F3347;
+  --footer-text-color: white;
+  --footer-padding: 20px; 
+  --footer-padding-mobile: 15px; 
+  --footer-padding-logo: 10px 0;
+  --footer-padding-logo-mobile: 5px 0; 
+  --footer-font-family: "Montserrat", sans-serif;
+
+  /* Breakpoints */
+  --breakpoint-tablet: 768px;
+  --breakpoint-mobile: 480px;
+}
+
+.footer {
+  font-family: var(--footer-font-family);
+  background-color: var(--footer-bg-color);
+  color: var(--footer-text-color);
+  text-align: center;
+  padding: var(--footer-padding);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.footer .logo {
+  display: block;
+  margin: 0 auto;
+  padding: var(--footer-padding-logo);
+  max-width: 100%; 
+}
+
+.footer p {
+  margin: 10px 0 20px 0; 
+  max-width: 100%; 
+  overflow-wrap: break-word; 
+}
+
+/* Media Queries */
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px !important;
+  }
+
+  
+}

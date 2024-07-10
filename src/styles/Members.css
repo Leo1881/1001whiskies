@@ -1,0 +1,89 @@
+:root {
+    --bg-color: #fff;
+    --text-color: #333;
+    --border-color: #1F3347;
+    --gap-size: 20px;
+    --padding-size: 20px;
+    --border-radius: 8px;
+  
+    --font-size-default: 1.1em;
+  
+    --breakpoint-tablet: 768px;
+    --breakpoint-mobile: 480px;
+  }
+  
+  .members {
+    background-color: #1F3347;
+    padding: var(--padding-size);
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    padding-bottom: 24px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .member-description {
+    color: white !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 24px;
+  }
+  
+  .members-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--gap-size);
+    margin-top: var(--gap-size);
+  }
+  
+  .member-card {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    padding: 10px;
+    background-color: #1F3347;
+  }
+  
+  .member-card img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+  }
+  
+  .member-card p {
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0 0;
+    font-size: var(--font-size-default);
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .members-grid {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  
+    .member-card p {
+      font-size: 1em; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .members-grid {
+      grid-template-columns: 1fr; 
+    }
+  
+    .member-card p {
+      font-size: 0.9em; 
+    }
+  }
+  

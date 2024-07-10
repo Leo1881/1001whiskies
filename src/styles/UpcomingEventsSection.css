@@ -1,0 +1,28 @@
+.upcoming-events-section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 10%;
+    text-align: left;
+    background-color: #FAF7F1;
+    
+  }
+  
+  .upcoming-events-section h2 {
+    font-family: "Playfair Display", serif;
+    color: #B87333;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    line-height: 57.6px;
+  }
+  
+  .upcoming-events-section p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #1F3347;
+    margin-bottom: 8px;
+    line-height: 27px;
+  }
+
+  
+  
