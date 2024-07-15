@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Leo1881/1001whiskies.git/static/css/main.a077e689.css",
-    "main.js": "/Leo1881/1001whiskies.git/static/js/main.cb7781ea.js",
+    "main.js": "/Leo1881/1001whiskies.git/static/js/main.362f7438.js",
     "static/js/453.d6e62118.chunk.js": "/Leo1881/1001whiskies.git/static/js/453.d6e62118.chunk.js",
     "static/media/contactimage.jpg": "/Leo1881/1001whiskies.git/static/media/contactimage.a2ead08a7f5abdb882e1.jpg",
     "static/media/about_us.jpg": "/Leo1881/1001whiskies.git/static/media/about_us.cce3c5cfe4056b61e80a.jpg",
@@ -36,11 +36,11 @@
     "static/media/baines.jpg": "/Leo1881/1001whiskies.git/static/media/baines.41b42da1b03a6b3ffb96.jpg",
     "index.html": "/Leo1881/1001whiskies.git/index.html",
     "main.a077e689.css.map": "/Leo1881/1001whiskies.git/static/css/main.a077e689.css.map",
-    "main.cb7781ea.js.map": "/Leo1881/1001whiskies.git/static/js/main.cb7781ea.js.map",
+    "main.362f7438.js.map": "/Leo1881/1001whiskies.git/static/js/main.362f7438.js.map",
     "453.d6e62118.chunk.js.map": "/Leo1881/1001whiskies.git/static/js/453.d6e62118.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a077e689.css",
-    "static/js/main.cb7781ea.js"
+    "static/js/main.362f7438.js"
   ]
 }
