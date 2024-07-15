@@ -7,7 +7,7 @@ import GalleryPage from './pages/GalleryPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/1001whiskies">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/whiskeys" element={<Whiskeys />} />
@@ -19,3 +19,4 @@ function App() {
 }
 
 export default App;
+
