@@ -108,8 +108,7 @@
 @media (max-width: 480px) {
   .event-card {
     flex-direction: column; 
-    margin-bottom: var(--margin-bottom-small); 
-    padding: 32px 0 32px 0;
+    padding: 24px 5% 24px 5%;
   }
 
   .event-card .event-date-box {

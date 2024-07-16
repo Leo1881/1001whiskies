@@ -141,9 +141,9 @@ h2 {
 
 @media (max-width: 768px) {
   :root {
-    --popup-max-width: 90%;
+    --popup-max-width: 85%;
     --popup-max-height: 90%;
-    --popup-padding: 10px;
+    --popup-padding: 24px;
     --popup-details-padding: 5px 10px;
     --heading-size: 24px;
     --rating-font-size: 14px;
@@ -159,7 +159,7 @@ h2 {
   .popup-image,
   .popup-details {
     flex: unset; 
-    width: 90%;
+    width: 100%;
   }
 
   .popup-image img {
@@ -171,12 +171,12 @@ h2 {
   :root {
     --popup-max-width: 85%;
     --popup-max-height: 95%;
-    --popup-padding: 5px;
+    --popup-padding: 16px;
     --popup-details-padding: 10px;
     --heading-size: 20px;
-    --rating-font-size: 12px;
+    --rating-font-size: 20px;
     --paragraph-font-size: 13px;
-    --close-font-size: 25px;
+    --close-font-size: 32px;
   }
 
   .popup-content-inner {
@@ -187,10 +187,18 @@ h2 {
   .popup-image,
   .popup-details {
     flex: unset; 
-    width: 90%; 
+    width: 95%; 
   }
 
   .popup-image img {
     margin: 0 auto; 
+  }
+
+  .rating {
+    margin-bottom: 8px;
+  }
+
+  .close {
+    top: 20px;
   }
 }

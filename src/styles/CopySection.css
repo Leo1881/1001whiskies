@@ -1,6 +1,6 @@
 :root {
   --section-padding: 90px 10%; 
-  --section-background-color: #f9f9f9;
+  --section-background-color: #ffffff;
   --section-gap: 32px; 
 }
 
@@ -75,7 +75,7 @@
 
 @media (max-width: 480px) {
   .copy-section {
-    padding: 60px 10% 80px 10%;;
+    padding: 60px 10% 80px 10%;
   }
   .copy-section h2 {
     font-size: 28px; 
