@@ -38,7 +38,7 @@ const Whiskeys = () => {
       paragraphs: [
         'Akashi Whisky is a distinguished Japanese whisky crafted by the Eigashima Shuzo distillery in Akashi, Japan. Known for its harmonious balance and smooth finish, Akashi combines traditional Scottish whisky-making techniques with Japanese precision. It offers a versatile range from light, floral expressions to rich, sherried profiles, making it a favorite among both connoisseurs and casual whisky enthusiasts. Perfect for sipping neat or in cocktails, Akashi Whisky embodies the delicate artistry and craftsmanship of Japanese whisky production.',
         'Akashi Whisky typically features notes of citrus, honey, vanilla, and a hint of oak, with a smooth and clean finish.',
-        'Origin : Japan.'
+        'Origin: Japan.'
       ]
     },
     { 
@@ -49,7 +49,7 @@ const Whiskeys = () => {
       paragraphs: [
         'Nikka Days Whisky is a delightful blend from the renowned Nikka Whisky Distilling Co., crafted in Japan. It represents a harmonious balance of malt and grain whiskies, designed to be smooth and versatile for various drinking occasions. With its accessible character, Nikka Days appeals to both whisky enthusiasts and newcomers alike, making it a staple in any whisky collection.',
         'Nikka Days Whisky presents a bouquet of fruity aromas with hints of orange peel and peach. On the palate, it offers a gentle sweetness, balanced by subtle notes of vanilla and oak. The finish is clean and refreshing, leaving a lingering impression of citrus and malt.',
-        'Origin : Japan.'
+        'Origin: Japan.'
       ]
     },
     { 
