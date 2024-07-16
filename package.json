@@ -2,7 +2,7 @@
   "name": "1001whiskies",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Leo1881/1001whiskies.git",
+  "homepage": "https://Leo1881.github.io/1001whiskies",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
