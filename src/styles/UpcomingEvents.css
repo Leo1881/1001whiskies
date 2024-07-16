@@ -109,7 +109,7 @@
   .event-card {
     flex-direction: column; 
     margin-bottom: var(--margin-bottom-small); 
-    width: 94%;
+    padding: 32px 0 32px 0;
   }
 
   .event-card .event-date-box {
@@ -130,5 +130,9 @@
   .event-card .event-title {
     font-size: 24px !important;
     margin-bottom: 16px;
+  }
+
+  .event-card .event-info {
+    width: 100%;
   }
 }
