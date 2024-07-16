@@ -38,6 +38,7 @@ html, body {
 .hero-content h1 {
   font-family: "Playfair Display", serif;
   font-size: 56px;
+  color: white;
   margin: 0;
   line-height: 67px;
 }

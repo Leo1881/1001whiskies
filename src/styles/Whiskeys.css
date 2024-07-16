@@ -103,3 +103,12 @@
     grid-template-columns: var(--grid-columns-small);
   }
 }
+
+@media (max-width: 480px) {
+  .whiskey-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--item-transition);
+  }
+}

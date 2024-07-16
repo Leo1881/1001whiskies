@@ -23,14 +23,14 @@
 
 h1 {
   font-family: "Playfair Display", serif;
-  color: var(--text-color);
+  color: #fff;
   padding-bottom: 24px;
   font-size: 32px;
   font-weight: 700;
 }
 
 .member-description {
-  color: var(--text-color) !important;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -66,7 +66,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   margin: 10px 0 0;
   font-size: var(--font-size-default);
-  color: var(--text-color);
+  color: #fff;
   font-weight: 700;
 }
 
@@ -156,7 +156,7 @@ h1 {
   }
 }
 
-@media (max-width: var(--breakpoint-mobile)) {
+@media (max-width: 480px) {
   .members-grid {
     grid-template-columns: 1fr;
   }

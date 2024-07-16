@@ -132,6 +132,10 @@
   }
 
   .event-card .event-info {
+    width: 100% !important; 
+  }
+
+  .event-divider {
     width: 100%;
   }
 }
