@@ -142,7 +142,7 @@ h1 {
 }
 
 /* Media Queries */
-@media (max-width: var(--breakpoint-tablet)) {
+@media (max-width: 768px) {
   .members-grid {
     grid-template-columns: repeat(2, 1fr);
   }
